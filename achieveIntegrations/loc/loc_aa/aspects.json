@@ -1,0 +1,43 @@
+{
+  "elements": [
+    {
+      "id": "forbidden_opod",
+      "label": "绝对禁止",
+      "isAspect": true
+    },
+    {
+      "id": "modded_heals_sickness",
+      "label": "治疗疾病",
+      "description": "我可以用此物来治疗自己的疾病。",
+      "isAspect": true
+    },
+    {
+      "id": "modded_follower_talk_forbidden",
+      "description": "我不能与追随者谈论此物。",
+      "isAspect": true
+    },
+    {
+      "id": "modded_follower_talk_subject",
+      "description": "我能够与追随者谈论此物。",
+      "isAspect": true
+    },
+    {
+      "id": "modded_useless_aspect",
+      "label": "???",
+      "description": "无用性相",
+      "isAspect": true
+    },
+    {
+      "id": "modded_heals_injury",
+      "label": "治疗疾病",
+      "description": "我可以用此物来治疗自己的疾病。",
+      "isAspect": true
+    },
+    {
+      "id": "modded_normal_rituals_forbidden",
+      "label": "终结",
+      "description": "意图，目的，动机，目标。",
+      "isAspect": true
+    }
+  ]
+}

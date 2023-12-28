@@ -1,0 +1,116 @@
+{
+  "elements": [
+    {
+      "id": "cult_exalts_edge",
+      "description": "This cult can exalt Edge followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Edge exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_winter",
+      "description": "This cult can exalt Winter followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Winter exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_heart",
+      "description": "This cult can exalt Heart followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Heart exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_grail",
+      "description": "This cult can exalt Grail followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Grail exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_moth",
+      "description": "This cult can exalt Moth followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Moth exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_lantern",
+      "description": "This cult can exalt Lantern followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Lantern exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_forge",
+      "description": "This cult can exalt Forge followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Forge exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_secret_histories",
+      "description": "This cult can exalt Secret Histories followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Secret Histories exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_knock",
+      "description": "This cult can exalt Knock followers.",
+      "comments": "This aspect exists to mark cults that are able to produce Knock exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "cult_exalts_none",
+      "description": "This cult can't exalt any followers.",
+      "comments": "This aspect exists to mark cults that are unable to produce exalts.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_cult_recruit_acquaintance_forbidden",
+      "description": "This cult can't recruit acquaintances.",
+      "comments": "This cult can't recruit acquaintances (or this acquaintance cannot.be recruited) in the normal manner.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_cult_recruit_independent_forbidden",
+      "description": "This cult can't recruit independents.",
+      "comments": "This cult can't recruit independents (or this independent cannot be recruited) in the normal manner.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_cult_promote_believer_forbidden",
+      "description": "This cult can't promote believers.",
+      "comments": "This cult can't promote believers (or this believer cannot be promoted) in the normal manner.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_cult_exalt_disciple_forbidden",
+      "description": "This cult can't exalt disciples in the usual manner.",
+      "comments": "This cult can't exalt disciples (or this disciple cannot be exalted) in the normal manner.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    }
+  ]
+}

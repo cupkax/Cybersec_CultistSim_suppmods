@@ -1,0 +1,13 @@
+﻿{"cultures": [
+	{ "id": "de", "$mute": true, "uilabels$add": {
+	"UI_ROOST_SETTINGS": "ROOST",
+
+	"UI_ROOST_MINIMIZE_PROMO": "Minimize Promo Image",
+
+ 	"UI_VERBOSITY": "Console Verbosity",
+	"UI_VERBOSITY_ESSENTIAL": "Essential",
+	"UI_VERBOSITY_SIGNIFICANT": "Significant",
+	"UI_VERBOSITY_CHATTER": "Chatter",
+	"UI_TRIVIA": "Trivia",
+	}},
+]}

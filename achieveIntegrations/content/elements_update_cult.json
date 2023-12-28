@@ -1,0 +1,64 @@
+{
+  "elements": [
+    {
+      "id": "cultedge_1",
+      "aspects$add": {
+        "cult_exalts_edge": 1
+      }
+    },
+    {
+      "id": "cultforge_1",
+      "aspects$add": {
+        "cult_exalts_forge": 1
+      }
+    },
+    {
+      "id": "cultgrail_1",
+      "aspects$add": {
+        "cult_exalts_grail": 1
+      }
+    },
+    {
+      "id": "cultheart_1",
+      "aspects$add": {
+        "cult_exalts_heart": 1
+      }
+    },
+    {
+      "id": "cultknock_1",
+      "aspects$add": {
+        "cult_exalts_knock": 1
+      }
+    },
+    {
+      "id": "cultlantern_1",
+      "aspects$add": {
+        "cult_exalts_lantern": 1
+      }
+    },
+    {
+      "id": "cultmoth_1",
+      "aspects$add": {
+        "cult_exalts_moth": 1
+      }
+    },
+    {
+      "id": "cultsecrethistories_1",
+      "aspects$add": {
+        "cult_exalts_none": 1
+      }
+    },
+    {
+      "id": "cultwinter_1",
+      "aspects$add": {
+        "cult_exalts_winter": 1
+      }
+    },
+    {
+      "id": "cultwinter_2",
+      "aspects$add": {
+        "cult_exalts_winter": 1
+      }
+    }
+  ]
+}

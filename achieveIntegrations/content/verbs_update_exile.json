@@ -1,0 +1,59 @@
+{
+  "verbs": [
+    {
+      "id": "relinquish",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_relinquish_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_relinquish_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "scout",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_scout_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_scout_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "send",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_send_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_send_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "travel",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_travel_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_travel_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "use",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_use_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_use_forbidden": 1
+        }
+      }
+    }
+  ]
+}

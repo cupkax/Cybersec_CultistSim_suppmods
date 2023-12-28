@@ -1,0 +1,104 @@
+{
+  "verbs": [
+    {
+      "id": "dream",
+      "slot": {
+        "id": "dream",
+        "label": "入梦",
+        "description": "或做梦的方向，或待解的烦忧。",
+        "required": {
+          "desire": 1,
+          "ability": 1,
+          "way": 1,
+          "modded_dream_allowed": 1,
+          "illhealth": 1,
+          "funds": 1
+        },
+        "forbidden": {
+          "modded_dream_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "work",
+      "slot": {
+        "id": "work",
+        "label": "作业",
+        "description": "我能做的，我知道的，或者我身为的。",
+        "required": {
+          "benefactor": 1,
+          "job": 1,
+          "desire": 1,
+          "modded_work_allowed": 1,
+          "ritual": 1,
+          "ability": 1
+        },
+        "forbidden": {
+          "modded_work_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "talk",
+      "slot": {
+        "id": "talk",
+        "label": "谈话",
+        "description": "盟友，仇敌，或者敌友难辨之人。",
+        "required": {
+          "summoned": 1,
+          "mortal": 1,
+          "society": 1,
+          "patron": 1,
+          "modded_talk_allowed": 1,
+          "lore": 1,
+          "hq": 1
+        },
+        "forbidden": {
+          "modded_talk_forbidden": 1,
+          "wary": 1
+        }
+      }
+    },
+    {
+      "id": "study",
+      "slot": {
+        "id": "study",
+        "label": "研究",
+        "description": "研究无形之术足够耗尽十世人生。",
+        "required": {
+          "language": 1,
+          "tutor": 1,
+          "text": 1,
+          "ability": 1,
+          "modded_study_allowed": 1,
+          "lore": 1,
+          "influence": 1,
+          "legacyplotitem": 1
+        },
+        "forbidden": {
+          "modded_study_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "explore",
+      "slot": {
+        "id": "explore",
+        "label": "探索",
+        "description": "地点，人物，场所，秘密。",
+        "required": {
+          "location": 1,
+          "secrethistories": 1,
+          "modded_explore_allowed": 1,
+          "follower": 1,
+          "ghoul.hunger": 1,
+          "health": 1
+        },
+        "forbidden": {
+          "modded_explore_forbidden": 1,
+          "hireling": 1
+        }
+      }
+    }
+  ]
+}

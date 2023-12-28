@@ -1,0 +1,133 @@
+{
+  "elements": [
+    {
+      "id": "modded_rite_consumes_forbidden",
+      "description": "Something I cannot sacrifice.",
+      "comments": "This aspect keeps the element from being placed in ANY consuming slot of a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_consumes_required",
+      "description": "Something I must sacrifice.",
+      "comments": "This aspect keeps the element from being placed in ANY non-consuming slot of a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_tool_allowed",
+      "description": "A tool I can employ in a Rite",
+      "comments": "This aspect allows the element to be placed in (the Tool slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_tool_forbidden",
+      "description": "A tool I cannot employ in a Rite",
+      "comments": "This aspect keeps the element from being placed in (the Tool slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_lore_allowed",
+      "description": "Lore I can employ in a Rite",
+      "comments": "This aspect allows the element to be placed in (the Lore slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_lore_forbidden",
+      "description": "Lore I cannot employ in a Rite",
+      "comments": "This aspect keeps the element from being placed in (the Lore slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_ingredient_allowed",
+      "description": "An ingredient I can employ in a Rite",
+      "comments": "This aspect allows the element to be placed in (the Ingredient slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_ingredient_forbidden",
+      "description": "An ingredient I can't employ in a Rite?",
+      "comments": "This aspect keeps the element from being placed in (the Ingredient slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_influence_allowed",
+      "description": "Influence I can employ in a Rite",
+      "comments": "This aspect allows the element to be placed in (the Influence slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_influence_forbidden",
+      "description": "Influence I cannot employ in a Rite",
+      "comments": "This aspect keeps the element from being placed in (the Influence slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_follower_allowed",
+      "description": "A follower I can employ in a Rite",
+      "comments": "This aspect allows the element to be placed in (the Follower slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_follower_forbidden",
+      "description": "A follower I cannot employ in a Rite",
+      "comments": "This aspect keeps the element from being placed in (the Follower slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "icon": "end",
+      "id": "modded_rite_desire_allowed",
+      "description": "A desire I can enact.",
+      "comments": "This aspect allows the element to be placed in (the Desire slot of) a Rite.\r\nAlso see modded_normal_rituals_forbidden,",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_desire_forbidden",
+      "description": "A desire I can't enact.",
+      "comments": "This aspect keeps the element from being placed in (the Desire slot of) a Rite.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_intercalate_forbidden",
+      "description": "Something that cannot be used in the Rite Intercalate.",
+      "comments": "This aspect keeps the element from being placed in (ANY slot of) the Rite Intercalate.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_rite_intercalate_required",
+      "description": "Something that can be used only in the Rite Intercalate.",
+      "comments": "This aspect keeps the element from being placed in (ANY slot of) any Rite other than the Rite Intercalate.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    }
+  ]
+}

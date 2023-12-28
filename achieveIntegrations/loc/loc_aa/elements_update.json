@@ -1,0 +1,36 @@
+{
+  "elements": [
+    {
+      "id": "affliction",
+      "slots": [
+        {
+          "id": "road",
+          "label": "康复之路",
+          "description": "我可以花钱请医生，又或许只要稍微休息一下就能恢复。[使用“资金”或“活力”来恢复“健康”。]",
+          "actionId": "dream",
+          "required": {
+            "funds": 1,
+            "vitality": 1,
+            "modded_heals_sickness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "injury",
+      "slots": [
+        {
+          "id": "road",
+          "label": "康复之路",
+          "description": "我可以花钱请医生，又或许只要稍微休息一下就能恢复。[使用“资金”或“活力”来恢复“健康”。]",
+          "actionId": "dream",
+          "required": {
+            "funds": 1,
+            "vitality": 1,
+            "modded_heals_injury": 1
+          }
+        }
+      ]
+    }
+  ]
+}

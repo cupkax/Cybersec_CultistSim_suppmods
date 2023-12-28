@@ -1,0 +1,706 @@
+{
+  "elements": [
+    {
+      "id": "riteconsumetoolingredientfollowerinfluence",
+      "slots": [
+        {
+          "id": "Sacrifice",
+          "label": "祭献",
+          "description": "将失而不还。",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_forbidden": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "将失而不还。",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_forbidden": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Surrender",
+          "label": "抛却",
+          "description": "将失而不还。",
+          "actionId": "work",
+          "required": {
+            "tool": 1,
+            "modded_rite_tool_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_tool_forbidden": 1,
+            "modded_rite_intercalate_forbidden": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Dissolution",
+          "label": "融解",
+          "description": "将失而不还。",
+          "actionId": "work",
+          "required": {
+            "influence": 1,
+            "modded_rite_influence_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_influence_forbidden": 1,
+            "modded_rite_intercalate_forbidden": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Grief",
+          "label": "悲痛",
+          "description": "将失而不还。",
+          "actionId": "work",
+          "required": {
+            "ingredient": 1,
+            "modded_rite_ingredient_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_ingredient_forbidden": 1,
+            "modded_rite_intercalate_forbidden": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "promise": 1,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_forbidden": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritefollowerconsumeinfluence",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Assistant",
+          "label": "援手",
+          "description": "何人念颂祝辞？",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "消耗何种影响？",
+          "actionId": "work",
+          "required": {
+            "influence": 1,
+            "modded_rite_influence_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_influence_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritefollowerconsumeingredient",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Assistant",
+          "label": "援手",
+          "description": "何人念颂祝辞？",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "献上何物？",
+          "actionId": "work",
+          "required": {
+            "ingredient": 1,
+            "modded_rite_ingredient_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_ingredient_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritefollowerconsumetool",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Assistant",
+          "label": "援手",
+          "description": "何人念颂祝辞？",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "我们将放弃何物？",
+          "actionId": "work",
+          "required": {
+            "ingredient": 1,
+            "modded_rite_ingredient_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_ingredient_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "riteinfluenceconsumefollower",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Victim",
+          "label": "被害者",
+          "description": "分裂何人？",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Influence",
+          "label": "影响",
+          "description": "呈上何种法力？",
+          "actionId": "work",
+          "required": {
+            "influence": 1,
+            "modded_rite_influence_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_influence_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "riteinfluenceconsumeingredient",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Influence",
+          "label": "影响",
+          "description": "呈上何种法力？",
+          "actionId": "work",
+          "required": {
+            "influence": 1,
+            "modded_rite_influence_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_influence_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "献上何物？",
+          "actionId": "work",
+          "required": {
+            "ingredient": 1,
+            "modded_rite_ingredient_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_ingredient_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritetoolconsumefollower",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Victim",
+          "label": "被害者",
+          "description": "流血须为自愿。",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Instrument",
+          "label": "器具",
+          "description": "血沿何物流淌？",
+          "actionId": "work",
+          "required": {
+            "tool": 1,
+            "modded_rite_tool_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_tool_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritetoolconsumeinfluence",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "纳受何种影响？",
+          "actionId": "work",
+          "required": {
+            "influence": 1,
+            "modded_rite_influence_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_influence_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Instrument",
+          "label": "器具",
+          "description": "器具为何？",
+          "actionId": "work",
+          "required": {
+            "tool": 1,
+            "modded_rite_tool_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_tool_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritetoolconsumeingredient",
+      "slots": [
+        {
+          "id": "Invocation",
+          "label": "祷文",
+          "description": "祝辞为何？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Instrument",
+          "label": "器具",
+          "description": "器具为何？",
+          "actionId": "work",
+          "required": {
+            "tool": 1,
+            "modded_rite_tool_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_tool_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Offering",
+          "label": "供奉",
+          "description": "我们将放弃何物？",
+          "actionId": "work",
+          "required": {
+            "ingredient": 1,
+            "modded_rite_ingredient_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_ingredient_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritetoolfollowerconsumelore",
+      "slots": [
+        {
+          "id": "Sacrifice",
+          "label": "祭献",
+          "description": "我们将忘却何物？",
+          "actionId": "work",
+          "required": {
+            "lore": 1,
+            "modded_rite_lore_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_lore_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_forbidden": 1
+          },
+          "consumes": true
+        },
+        {
+          "id": "Assistant",
+          "label": "援手",
+          "description": "何人念颂祝辞？",
+          "actionId": "work",
+          "required": {
+            "follower": 1,
+            "prisoner": 1,
+            "modded_rite_follower_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_follower_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Instrument",
+          "label": "器具",
+          "description": "器具为何？",
+          "actionId": "work",
+          "required": {
+            "tool": 1,
+            "modded_rite_tool_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_tool_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        },
+        {
+          "id": "Desire",
+          "label": "欲望",
+          "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]",
+          "actionId": "work",
+          "required": {
+            "desire": 6,
+            "modded_rite_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_rite_desire_forbidden": 1,
+            "modded_rite_intercalate_required": 1,
+            "modded_rite_consumes_required": 1
+          }
+        }
+      ]
+    }
+  ]
+}

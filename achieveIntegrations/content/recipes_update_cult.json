@@ -1,0 +1,275 @@
+{
+  "recipes": [
+    {
+      "id": "recruitindependentedge",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentforge",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentgrail",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentheart",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentknock",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentlantern",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentmoth",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitindependentwinter",
+      "requirements$add": {
+        "modded_cult_recruit_independent_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintanceedge",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintanceforge",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintancegrail",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintanceheart",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintanceknock",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintancelantern",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintancemoth",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "recruitacquaintancewinter",
+      "requirements$add": {
+        "modded_cult_recruit_acquaintance_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodiscipleedge",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodiscipleforge",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodisciplegrail",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodiscipleheart",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodiscipleknock",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodisciplelantern",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodisciplemoth",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promotetodisciplewinter",
+      "requirements$add": {
+        "modded_cult_promote_believer_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "promoteto_d_edge",
+      "requirements$add": {
+        "cult_exalts_edge": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultedge_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_forge",
+      "requirements$add": {
+        "cult_exalts_forge": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultforge_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_grail",
+      "requirements$add": {
+        "cult_exalts_grail": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultgrail_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_heart",
+      "requirements$add": {
+        "cult_exalts_heart": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultheart_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_knock",
+      "requirements$add": {
+        "cult_exalts_knock": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultknock_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_lantern",
+      "requirements$add": {
+        "cult_exalts_lantern": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultlantern_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_moth",
+      "requirements$add": {
+        "cult_exalts_moth": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "cultmoth_1"
+      ]
+    },
+    {
+      "id": "promoteto_d_winter",
+      "requirements$add": {
+        "cult_exalts_winter": "1",
+        "cult_exalts_none": "-1",
+        "modded_cult_exalt_disciple_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "requirements$remove": [
+        "venerationedge",
+        "venerationforge",
+        "venerationgrail",
+        "venerationheart",
+        "venerationlantern",
+        "venerationknock",
+        "venerationmoth",
+        "venerationwinter"
+      ]
+    }
+  ]
+}

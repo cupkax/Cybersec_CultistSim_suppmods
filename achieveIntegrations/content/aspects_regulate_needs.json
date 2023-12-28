@@ -1,0 +1,28 @@
+{
+  "elements": [
+    {
+      "id": "modded_needs_allowed",
+      "description": "Something to satisfy my needs.",
+      "comments": "Something with this aspect can be picked up by the Time Verb to satisfy needs.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_needs_forbidden",
+      "description": "Something that can't satisfy my needs.",
+      "comments": "This aspect prevents the element from being grabbed by the Time verb to satisfy needs.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_needs",
+      "description": "Something that keeps me from mortal concerns.",
+      "comments": "As long as any card with this aspect exists, it SHOULD be impossible for Needs to spawn.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    }
+  ]
+}

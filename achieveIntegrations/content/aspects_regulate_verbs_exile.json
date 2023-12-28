@@ -1,0 +1,74 @@
+{
+  "elements": [
+    {
+      "id": "modded_relinquish_allowed",
+      "label": "Relinquishable",
+      "description": "Something I can relinquish.",
+      "comments": "This aspect allows the element to be placed in the Relinquish verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_relinquish_forbidden",
+      "label": "Not Relinquishable",
+      "description": "Something I can't relinquish.",
+      "comments": "This aspect prevents the element from being placed in the Relinquish verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_scout_allowed",
+      "label": "Scoutable",
+      "description": "Something I can scout.",
+      "comments": "This aspect allows the element to be placed in the Scout verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_scout_forbidden",
+      "label": "Not Scoutable",
+      "description": "Something I can't scout.",
+      "comments": "This aspect prevents the element from being placed in the Scout verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_send_allowed",
+      "label": "Sendable",
+      "description": "Something I can send, or send to.",
+      "comments": "This aspect allows the element to be placed in the Send verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_send_forbidden",
+      "label": "Not Sendable",
+      "description": "Something I can't send, or send to.",
+      "comments": "This aspect prevents the element from being placed in the Send verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_travel_allowed",
+      "label": "Travelable",
+      "description": "Somewhere I can travel.",
+      "comments": "This aspect allows the element to be placed in the Travel verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_travel_forbidden",
+      "label": "Not Travelable",
+      "description": "Something I can't travel to.",
+      "comments": "This aspect prevents the element from being placed in the Travel verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_use_allowed",
+      "label": "Useful",
+      "description": "Something I can use.",
+      "comments": "This aspect allows the element to be placed in the Use verb as the primary subject.",
+      "isAspect": true
+    },
+    {
+      "id": "modded_use_forbidden",
+      "label": "Not Useful",
+      "description": "Something I can't use.",
+      "comments": "This aspect prevents the element from being placed in the Use verb as the primary subject.",
+      "isAspect": true
+    }
+  ]
+}

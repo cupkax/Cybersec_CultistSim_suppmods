@@ -1,0 +1,354 @@
+{
+  "recipes": [
+    {
+      "id": "summon_spirit_wintera_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_wintera_moth",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "renew_spirit_wintera_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "renew_spirit_wintera_moth",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_forgee_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_graile_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_lanterne_secret",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_forgec_winter",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_grailc_moth",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_lanternc_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_heartc_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_winterd_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "summon_spirit_winterb_heart",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_forgee_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_forgee_edge_exists",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_forgee_edge_dayd",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_forgee_edge_nom",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_graile_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_graile_edge_exists",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_graile_edge_dayd",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_lanterne_secret",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_lanterne_secret_exists",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_lanterne_secret_dayd",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_forgec_winter",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_grailc_moth",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_lanternc_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_heartc_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_winterd_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_winterb_heart",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_renew_spirit_wintera_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_renew_spirit_wintera_moth",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_wintera_edge",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "hint_summon_spirit_wintera_moth",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_lantern_edge_hint",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_moth_edge_hint",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_forge_grail_hint",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_winter_lantern_hint",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_lantern_edge_grand",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_lantern_edge_major",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_lantern_edge_minor",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_moth_edge_grand",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_moth_edge_major",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_moth_edge_minor",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_moth_edge_runaway",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_forge_grail_grand",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_forge_grail_major",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_forge_grail_minor",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_winter_lantern_grand",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_winter_lantern_major",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "arcane_winter_lantern_minor",
+      "requirements$add": {
+        "modded_normal_rituals_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    }
+  ]
+}

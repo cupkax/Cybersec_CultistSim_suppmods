@@ -1,0 +1,157 @@
+{
+  "recipes": [
+    {
+      "id": "ambition",
+      "actionId": "craving",
+      "slots": [
+        {
+          "id": "Obsessions",
+          "label": "痴迷之念",
+          "description": "更深层的渴望",
+          "required": {
+            "enlightenmentmarks": 3,
+            "powermarks": 3,
+            "sensationmarks": 3,
+            "remembrancemarks": 2,
+            "changemarks": 1,
+            "independent": 1,
+            "resentment": 3,
+            "mentor": 1,
+            "modded_craving_ambition_allowed": 1
+          },
+          "forbidden": {
+            "modded_craving_ambition_forbidden": 1
+          },
+          "greedy": true
+        }
+      ]
+    },
+    {
+      "id": "ascensionnotyet",
+      "actionId": "craving",
+      "slots": [
+        {
+          "id": "Temptations",
+          "label": "诱惑",
+          "description": "火待浇油",
+          "required": {
+            "desire": 1,
+            "modded_craving_desire_allowed": 1
+          },
+          "forbidden": {
+            "modded_craving_desire_forbidden": 1
+          },
+          "greedy": true
+        }
+      ]
+    },
+    {
+      "id": "talktofollower",
+      "actionId": "talk",
+      "slots": [
+        {
+          "id": "Subject",
+          "label": "话题",
+          "description": "本教事务；目标；或者另一个话题。",
+          "required": {
+            "independent": 1,
+            "society": 1,
+            "ingredient": 1,
+            "tool": 1,
+            "modded_follower_talk_subject": 1,
+            "location": 1,
+            "evidencelevel": 1,
+            "hunter": 1,
+            "annoyance": 1
+          },
+          "forbidden": {
+            "modded_follower_talk_forbidden": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dreamascensionenlightenmenta",
+      "actionId": "dream",
+      "slots": [
+        {
+          "id": "Reflection",
+          "label": "反思",
+          "description": "奉身于我所追寻的准则相关的密传，或在别处寻求突破。",
+          "required": {
+            "lore": 1,
+            "passion": 1,
+            "health": 1,
+            "priestjob": 1,
+            "modded_temptation_dream_allowed": 1
+          },
+          "forbidden": {
+            "modded_temptation_dream_forbidden": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dreamascensionpowera",
+      "actionId": "dream",
+      "slots": [
+        {
+          "id": "Calculation",
+          "label": "凝思",
+          "description": "奉身于我所追寻的准则相关的密传，或在别处寻求突破。",
+          "required": {
+            "lore": 1,
+            "health": 1,
+            "reason": 1,
+            "priestjob": 1,
+            "modded_temptation_dream_allowed": 1
+          },
+          "forbidden": {
+            "modded_temptation_dream_forbidden": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dreamascensionsensationa",
+      "actionId": "dream",
+      "slots": [
+        {
+          "id": "Musing",
+          "label": "冥思",
+          "description": "奉身于我所追寻的准则相关的密传，或在别处寻求突破。",
+          "required": {
+            "lore": 1,
+            "passion": 1,
+            "reason": 1,
+            "priestjob": 1,
+            "modded_temptation_dream_allowed": 1
+          },
+          "forbidden": {
+            "modded_temptation_dream_forbidden": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "needs",
+      "actionId": "time",
+      "slots": [
+        {
+          "id": "Expenses",
+          "label": "开销",
+          "description": "我得付商店老板的帐。不交钱就会挨饿。",
+          "required": {
+            "funds": 1,
+            "modded_needs_allowed": 1
+          },
+          "forbidden": {
+            "modded_needs_forbidden": 1
+          },
+          "greedy": true,
+          "noanim": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "verbs": [
+    {
+      "id": "dream",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_dream_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_dream_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "work",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_work_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_work_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "talk",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_talk_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_talk_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "study",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_study_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_study_forbidden": 1
+        }
+      }
+    },
+    {
+      "id": "explore",
+      "slot$dictedit": {
+        "required$add": {
+          "modded_explore_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_explore_forbidden": 1
+        }
+      }
+    }
+  ]
+}
