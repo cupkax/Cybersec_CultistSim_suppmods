@@ -1,0 +1,69 @@
+{
+  "recipes": [
+    {
+      "id": "modded_xtrigger",
+      "label": "XTrigger",
+      "actionId": "xtrigger_modded",
+      "startdescription": "Put a triggering aspect in the slot that comes up. If the XTrigger works, the subject will change because of this recipe.",
+      "description": "Did it work?",
+      "craftable": true,
+      "warmup": 10,
+      "requirements": {
+        "forbidden_opod": "-1"
+      },
+      "slots": [
+        {
+          "id": "trigger",
+          "label": "A Trigger?"
+        }
+      ]
+    },
+    {
+      "id": "recipe_forbidden_opod",
+      "label": "NO! BAD!",
+      "actionId": "forbidden_opod",
+      "startdescription": "Something has gone horribly wrong.",
+      "description": "This is the end.",
+      "ending": "deathofthebody",
+      "burnimage": "beforetrial",
+      "portaleffect": "None",
+      "signalendingflavour": "Vile",
+      "signalimportantloop": true,
+      "warmup": 10,
+      "requirements": {
+        "forbidden_opod": "1"
+      }
+    },
+    {
+      "id": "modded_mutate",
+      "label": "Mutate",
+      "actionId": "xtrigger_mutate",
+      "startdescription": "Mutating this card...",
+      "description": "Mutated!",
+      "craftable": true,
+      "warmup": 10,
+      "requirements": {
+        "forbidden_opod": "-1",
+        "modded_mutated": "-1"
+      },
+      "alt": [
+        {
+          "id": "modded_unmutate"
+        }
+      ]
+    },
+    {
+      "id": "modded_unmutate",
+      "label": "Un-Mutate",
+      "actionId": "xtrigger_mutate",
+      "startdescription": "Un-mutating this card...",
+      "description": "Un-mutated!",
+      "craftable": false,
+      "warmup": 10,
+      "requirements": {
+        "forbidden_opod": "-1",
+        "modded_mutated": "1"
+      }
+    }
+  ]
+}

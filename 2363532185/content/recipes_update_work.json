@@ -1,0 +1,104 @@
+{
+  "recipes": [
+    {
+      "id": "findclericalwork",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_ability_work": "-1",
+        "modded_forbids_g_and_g_find": "-1",
+        "modded_forbids_reason_work": "-1"
+      }
+    },
+    {
+      "id": "workbeg",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_begging_work": "-1"
+      }
+    },
+    {
+      "id": "workhealthskilla",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_skill_work": "-1",
+        "modded_forbids_health_work": "-1"
+      }
+    },
+    {
+      "id": "workhealthskillb",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_skill_work": "-1",
+        "modded_forbids_health_work": "-1"
+      }
+    },
+    {
+      "id": "workhealthskillc",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_skill_work": "-1",
+        "modded_forbids_health_work": "-1"
+      }
+    },
+    {
+      "id": "workhealthskilld_edge",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_skill_work": "-1",
+        "modded_forbids_health_work": "-1"
+      }
+    },
+    {
+      "id": "paintbasic",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_ability_work": "-1",
+        "modded_forbids_passion_work": "-1"
+      }
+    },
+    {
+      "id": "paintwithskill",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_skill_work": "-1",
+        "modded_forbids_passion_work": "-1"
+      }
+    },
+    {
+      "id": "workhealth",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_ability_work": "-1",
+        "modded_forbids_health_work": "-1"
+      }
+    },
+    {
+      "id": "workhealth_noinjurychance",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "extantreqs$add": {
+        "modded_forbids_ability_work": "-1",
+        "modded_forbids_health_work": "-1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "recipes": [
+    {
+      "id": "talk_nointeraction_mortal",
+      "requirements$add": {
+        "modded_nointeraction_mortal_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      }
+    },
+    {
+      "id": "work.generaldesire.hint",
+      "requirements$add": {
+        "modded_work.generaldesire.hint_forbidden": "-1"
+      }
+    },
+    {
+      "id": "eruditionhintdream",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "glimmeringhintdream",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "vitalityhintdream",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "contentmenthintdream",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "contentmenthintwork",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "eruditionhintwork",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "glimmeringhintwork",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "vitalityhintwork",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    },
+    {
+      "id": "workfundshint",
+      "requirements$add": {
+        "modded_pointless_hints_forbidden": "-1"
+      }
+    }
+  ]
+}

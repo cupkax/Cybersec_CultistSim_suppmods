@@ -1,0 +1,20 @@
+{
+  "recipes": [
+    {
+      "id": "workhealthinjury",
+      "effects": {
+        "funds": "1"
+      },
+      "aspects$add": {
+        "damagehealth": 1
+      }
+    },
+    {
+      "id": "starvation",
+      "effects": {},
+      "aspects$add": {
+        "modded_starvation": 1
+      }
+    }
+  ]
+}

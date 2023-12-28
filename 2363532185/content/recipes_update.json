@@ -1,0 +1,205 @@
+{
+  "recipes": [
+    {
+      "id": "ascensionnotyet",
+      "slot$dictedit": {
+        "required$add": {
+          "desire": 1,
+          "modded_craving_desire_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_craving_desire_forbidden": 1
+        }
+      }
+	},
+    {
+      "id": "talktofollower",
+      "requirements$add": {
+        "modded_normal_talktofollower_forbidden": "-1",
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "slot$dictedit": {
+        "required$add": {
+          "modded_follower_talk_subject": 1
+        },
+        "forbidden$add": {
+          "modded_follower_talk_forbidden": 1
+        }
+      }
+	},
+    {
+      "id": "dreamascensionenlightenmenta",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "slot$dictedit": {
+        "required$add": {
+          "modded_temptation_dream_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_temptation_dream_forbidden": 1
+        }
+      }
+	},
+    {
+      "id": "dreamascensionpowera",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "slot$dictedit": {
+        "required$add": {
+          "modded_temptation_dream_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_temptation_dream_forbidden": 1
+        }
+      }
+	},
+    {
+      "id": "dreamascensionsensationa",
+      "requirements$add": {
+        "modded_normal_craftable_forbidden": "-1"
+      },
+      "slot$dictedit": {
+        "required$add": {
+          "modded_temptation_dream_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_temptation_dream_forbidden": 1
+        }
+      }
+	},
+    {
+	  "id": "needs",
+      "extantreqs$add": {
+        "modded_forbids_needs": "-1"
+      },
+      "slot$dictedit": {
+          "required$add": {
+            "modded_needs_allowed": 1
+          },
+          "forbidden$add": {
+            "modded_needs_forbidden": 1
+          }
+        }
+	},
+    {
+      "id": "ambition",
+      "actionId": "craving",
+      "linked": [
+	    {
+          "id": "L_ascension_rival",
+          "chance": 100
+        },
+        {
+          "id": "L_independent",
+          "chance": 100
+        },
+        {
+          "id": "L_rebellion_activate",
+          "chance": 70
+        },
+        {
+          "id": "L_rebellion_noactivation",
+          "chance": 100
+        },
+        {
+          "id": "ending.minorcrownedgrowthvictory",
+          "chance": 100
+        },
+        {
+          "id": "ambition.apostleforge.emitfuel",
+          "chance": 100
+        },
+        {
+          "id": "ambition.apostlegrail.emitfuel",
+          "chance": 100
+        },
+        {
+          "id": "ambition.apostlelantern.emitfuel",
+          "chance": 100
+        },
+        {
+          "id": "ambition.modded.router",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingunmaking",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingpower",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingsensation",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingenlightenment",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingremembrance",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingremembrancenegative",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravinggunmaking",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfromg",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfromf",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfrome",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfromd",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfromc",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfromb",
+          "chance": 100
+        },
+        {
+          "id": "ascensioncravingchange_tryascendfroma",
+          "chance": 100
+        },
+        {
+          "id": "ascensionnotyet",
+          "chance": 100
+        }
+      ],
+      "slot$dictedit": {
+        "required$add": {
+          "enlightenmentmarks": 3,
+          "powermarks": 3,
+          "sensationmarks": 3,
+          "remembrancemarks": 2,
+          "changemarks": 1,
+          "independent": 1,
+          "resentment": 3,
+          "mentor": 1,
+          "modded_craving_ambition_allowed": 1
+        },
+        "forbidden$add": {
+          "modded_craving_ambition_forbidden": 1
+        }
+      }
+	}
+  ]
+}

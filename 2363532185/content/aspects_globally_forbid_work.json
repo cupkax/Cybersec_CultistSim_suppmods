@@ -1,0 +1,60 @@
+{
+  "elements": [
+    {
+      "id": "modded_forbids_health_work",
+      "description": "Something that keeps me from working with my health.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to perform the manual labor jobs.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_passion_work",
+      "description": "Something that keeps me from working with my passion.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to perform the painting jobs.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_reason_work",
+      "description": "Something that keeps me from working with my reason.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to find the Glover and Glover job. If you have a mod like The Author installed, authoring shouldn't be allowed, either.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_ability_work",
+      "description": "Something that keeps me from working with my abilities.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to perform unskilled jobs (including finding Glover and Glover).",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_skill_work",
+      "description": "Something that keeps me from working with my skills.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to perform the skilled-labor jobs. (superjw2, that means no authoring, either!)",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_g_and_g_find",
+      "description": "Something that keeps me from working with my reason.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to find the Glover and Glover job.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    },
+    {
+      "id": "modded_forbids_begging_work",
+      "description": "Something that keeps me from begging in the streets.",
+      "comments": "As long as any card with this aspect exists, it will not be possible to beg with decrepitude.",
+      "isAspect": true,
+      "isHidden": true,
+      "noartneeded": true
+    }
+  ]
+}

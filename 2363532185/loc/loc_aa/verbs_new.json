@@ -1,0 +1,26 @@
+{
+  "verbs": [
+    {
+      "id": "forbidden_opod",
+      "label": "绝对禁止",
+      "description": "此行动不应存在。",
+      "slot": {
+        "id": "forbidden_opod",
+        "label": "禁止？",
+        "description": "此卡槽不应放入任何内容。",
+        "required": {
+          "forbidden_opod": 1
+        }
+      }
+    },
+    {
+      "id": "xtrigger_modded",
+      "label": "触发",
+      "description": "放入主题，开始行动，在新卡槽出现之后放入可触发的性相。",
+      "slot": {
+        "id": "subject",
+        "label": "主题"
+      }
+    }
+  ]
+}

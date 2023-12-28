@@ -1,0 +1,7 @@
+{
+  "name": "GHIRBI", "version": "1.0",
+  "description": "WARNING! Enabling this permits execution of third-party code by DLL mods. Use only trusted DLL mods; and still at your own risk.",
+  "description_long": "Ghirbi, the Gatekeeper, does nothing... except allow you to used DLL mods which execute third-party code. Many of the more interesting mods on the Workshop do this. _In theory_, mod authors could run malicious code on your machine if you install a malicious DLL mod. This is very rare, it hasn't happened on Cultist Simulator, and Steam blocks bad actors, but it has happened on at least one other game. By installing Ghirbi, you are indicating that you understand and accept this risk. WARNING! Enabling this permits execution of third-party code by DLL mods. Use only trusted DLL mods; and still at your own risk.",
+  "author": "Weather Factory",
+  "comments": "NB! Description is used for validation of this mod. So if this description changes, the expected description in ModManager.Safety.IsGatekeeper() must change too. And conversely."
+}
